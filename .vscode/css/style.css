@@ -25,21 +25,23 @@ body {
 
 .navbar-custom {
   background-color: white;
-  border-radius: 8px;
-  padding: 1.5rem 2rem;
+  border-radius: 15px; 
+  padding: 0.1rem 1.5rem;
   box-shadow: var(--shadow-sm);
+  max-width: 95%; 
+  width: 1000px; 
+  margin: 0.5rem auto; 
 }
 
-.navbar-brand {
-  font-weight: 700;
-  color: var(--primary-color) !important;
+.navbar-custom .container-fluid {
+  padding: 0;
 }
 
 .navbar-custom .nav-link {
   color: var(--primary-color);
   font-weight: 500;
   margin: 0 0.8rem;
-  padding: 0.5rem 0;
+  padding: 0.1rem 0;
   position: relative;
 }
 
@@ -54,7 +56,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 1.0px;
   background: var(--secondary-color);
 }
 
@@ -69,7 +71,7 @@ body {
   margin: 2rem auto;
   padding: 2.5rem;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: var(--shadow-md);
   transition: box-shadow 0.3s ease;
 }
@@ -112,21 +114,23 @@ body {
 }
 
 .custom-footer {
-  text-align: center;
-  padding: 1.5rem;
+  background-color: transparent;
   color: #7f8c8d;
   font-size: 0.9rem;
-  margin-top: auto;
+  padding: 1.5rem 1.5;
+  margin-top: 8rem; 
 }
 
 .custom-footer .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 1.5rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.footer-text {
+  margin-left: 2rem;
+}
 .social-icons a {
   color: var(--primary-color);
   margin: 0 10px;
